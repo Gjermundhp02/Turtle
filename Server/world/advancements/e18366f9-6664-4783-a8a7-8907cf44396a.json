@@ -1,0 +1,432 @@
+{
+  "minecraft:recipes/combat/leather_chestplate": {
+    "criteria": {
+      "has_leather": "2021-01-15 19:22:24 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/wooden_axe": {
+    "criteria": {
+      "has_stick": "2021-01-15 19:44:41 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/acacia_planks": {
+    "criteria": {
+      "has_log": "2021-01-15 16:12:58 +0100"
+    },
+    "done": true
+  },
+  "computercraft:recipes/computercraft/disk_16": {
+    "criteria": {
+      "has_drive": "2021-01-18 12:08:04 +0100"
+    },
+    "done": true
+  },
+  "minecraft:adventure/kill_a_mob": {
+    "criteria": {
+      "minecraft:zombie": "2021-01-15 16:09:42 +0100"
+    },
+    "done": true
+  },
+  "computercraft:recipes/computercraft/disk_14": {
+    "criteria": {
+      "has_drive": "2021-01-18 12:08:04 +0100"
+    },
+    "done": true
+  },
+  "computercraft:recipes/computercraft/disk_1": {
+    "criteria": {
+      "has_drive": "2021-01-18 12:08:04 +0100"
+    },
+    "done": true
+  },
+  "computercraft:recipes/computercraft/disk_15": {
+    "criteria": {
+      "has_drive": "2021-01-18 12:08:04 +0100"
+    },
+    "done": true
+  },
+  "computercraft:recipes/computercraft/disk_2": {
+    "criteria": {
+      "has_drive": "2021-01-18 12:08:04 +0100"
+    },
+    "done": true
+  },
+  "computercraft:recipes/computercraft/disk_12": {
+    "criteria": {
+      "has_drive": "2021-01-18 12:08:04 +0100"
+    },
+    "done": true
+  },
+  "computercraft:recipes/computercraft/disk_13": {
+    "criteria": {
+      "has_drive": "2021-01-18 12:08:04 +0100"
+    },
+    "done": true
+  },
+  "computercraft:recipes/computercraft/disk_10": {
+    "criteria": {
+      "has_drive": "2021-01-18 12:08:04 +0100"
+    },
+    "done": true
+  },
+  "computercraft:recipes/computercraft/disk_11": {
+    "criteria": {
+      "has_drive": "2021-01-18 12:08:04 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/leather_helmet": {
+    "criteria": {
+      "has_leather": "2021-01-15 19:22:24 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/cauldron": {
+    "criteria": {
+      "has_water_bucket": "2021-01-18 12:04:27 +0100"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:taiga": "2021-01-15 16:00:27 +0100",
+      "minecraft:taiga_hills": "2021-01-18 12:10:03 +0100",
+      "minecraft:beach": "2021-01-17 19:08:00 +0100",
+      "minecraft:lukewarm_ocean": "2021-01-17 21:40:56 +0100"
+    },
+    "done": false
+  },
+  "minecraft:recipes/misc/charcoal": {
+    "criteria": {
+      "has_log": "2021-01-15 16:12:53 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/campfire": {
+    "criteria": {
+      "has_coal": "2021-01-15 19:40:49 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/spruce_planks": {
+    "criteria": {
+      "has_logs": "2021-01-15 16:43:59 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/wooden_pickaxe": {
+    "criteria": {
+      "has_stick": "2021-01-15 19:44:41 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/ladder": {
+    "criteria": {
+      "has_stick": "2021-01-15 19:44:41 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2021-01-15 19:44:41 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/birch_boat": {
+    "criteria": {
+      "in_water": "2021-01-18 11:41:36 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/light_gray_bed": {
+    "criteria": {
+      "has_light_gray_wool": "2021-01-18 11:21:00 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/light_gray_carpet": {
+    "criteria": {
+      "has_light_gray_wool": "2021-01-18 11:21:00 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/painting": {
+    "criteria": {
+      "has_wool": "2021-01-18 11:20:52 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/red_carpet": {
+    "criteria": {
+      "has_red_wool": "2021-01-18 11:21:03 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/wooden_shovel": {
+    "criteria": {
+      "has_stick": "2021-01-15 19:44:41 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/red_bed": {
+    "criteria": {
+      "has_red_wool": "2021-01-18 11:21:03 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/acacia_boat": {
+    "criteria": {
+      "in_water": "2021-01-18 11:41:36 +0100"
+    },
+    "done": true
+  },
+  "computercraft:recipes/computercraft/disk_7": {
+    "criteria": {
+      "has_drive": "2021-01-18 12:08:04 +0100"
+    },
+    "done": true
+  },
+  "computercraft:recipes/computercraft/disk_8": {
+    "criteria": {
+      "has_drive": "2021-01-18 12:08:04 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/jungle_wood": {
+    "criteria": {
+      "has_log": "2021-01-15 16:12:57 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_oak_wood": {
+    "criteria": {
+      "has_log": "2021-01-15 16:13:00 +0100"
+    },
+    "done": true
+  },
+  "computercraft:recipes/computercraft/disk_9": {
+    "criteria": {
+      "has_drive": "2021-01-18 12:08:04 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/acacia_wood": {
+    "criteria": {
+      "has_log": "2021-01-15 16:12:58 +0100"
+    },
+    "done": true
+  },
+  "computercraft:recipes/computercraft/disk_3": {
+    "criteria": {
+      "has_drive": "2021-01-18 12:08:04 +0100"
+    },
+    "done": true
+  },
+  "computercraft:recipes/computercraft/disk_4": {
+    "criteria": {
+      "has_drive": "2021-01-18 12:08:04 +0100"
+    },
+    "done": true
+  },
+  "computercraft:recipes/computercraft/disk_5": {
+    "criteria": {
+      "has_drive": "2021-01-18 12:08:04 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/black_carpet": {
+    "criteria": {
+      "has_black_wool": "2021-01-18 11:20:52 +0100"
+    },
+    "done": true
+  },
+  "computercraft:recipes/computercraft/disk_6": {
+    "criteria": {
+      "has_drive": "2021-01-18 12:08:04 +0100"
+    },
+    "done": true
+  },
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_something": "2021-01-15 16:09:42 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/spruce_wood": {
+    "criteria": {
+      "has_log": "2021-01-15 16:43:59 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/coal_block": {
+    "criteria": {
+      "has_coal": "2021-01-15 19:40:49 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/leather_boots": {
+    "criteria": {
+      "has_leather": "2021-01-15 19:22:24 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/black_bed": {
+    "criteria": {
+      "has_black_wool": "2021-01-18 11:20:52 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/jungle_boat": {
+    "criteria": {
+      "in_water": "2021-01-18 11:41:36 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/spruce_boat": {
+    "criteria": {
+      "in_water": "2021-01-18 11:41:36 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/wooden_sword": {
+    "criteria": {
+      "has_stick": "2021-01-15 19:44:41 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/item_frame": {
+    "criteria": {
+      "has_leather": "2021-01-15 19:22:24 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/oak_planks": {
+    "criteria": {
+      "has_logs": "2021-01-15 16:12:53 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/light_gray_banner": {
+    "criteria": {
+      "has_light_gray_wool": "2021-01-18 11:21:00 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/dark_oak_boat": {
+    "criteria": {
+      "in_water": "2021-01-18 11:41:36 +0100"
+    },
+    "done": true
+  },
+  "minecraft:adventure/kill_all_mobs": {
+    "criteria": {
+      "minecraft:zombie": "2021-01-15 16:09:42 +0100"
+    },
+    "done": false
+  },
+  "minecraft:recipes/building_blocks/dark_oak_planks": {
+    "criteria": {
+      "has_log": "2021-01-15 16:13:00 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/yellow_carpet": {
+    "criteria": {
+      "has_yellow_wool": "2021-01-18 11:20:56 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/birch_wood": {
+    "criteria": {
+      "has_log": "2021-01-15 16:12:56 +0100"
+    },
+    "done": true
+  },
+  "computercraft:recipes/computercraft/turtle_normal/minecraft/diamond_pickaxe": {
+    "criteria": {
+      "has_items": "2021-01-15 16:37:03 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/yellow_banner": {
+    "criteria": {
+      "has_yellow_wool": "2021-01-18 11:20:56 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/wooden_hoe": {
+    "criteria": {
+      "has_stick": "2021-01-15 19:44:41 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/jungle_planks": {
+    "criteria": {
+      "has_logs": "2021-01-15 16:12:57 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/black_banner": {
+    "criteria": {
+      "has_black_wool": "2021-01-18 11:20:52 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/red_banner": {
+    "criteria": {
+      "has_red_wool": "2021-01-18 11:21:03 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/birch_planks": {
+    "criteria": {
+      "has_logs": "2021-01-15 16:12:56 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/yellow_bed": {
+    "criteria": {
+      "has_yellow_wool": "2021-01-18 11:20:56 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/oak_wood": {
+    "criteria": {
+      "has_log": "2021-01-15 16:12:53 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/soul_campfire": {
+    "criteria": {
+      "has_stick": "2021-01-15 19:44:41 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/crossbow": {
+    "criteria": {
+      "has_stick": "2021-01-15 19:44:41 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/oak_boat": {
+    "criteria": {
+      "in_water": "2021-01-18 11:41:36 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/leather_horse_armor": {
+    "criteria": {
+      "has_leather": "2021-01-15 19:22:24 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/leather_leggings": {
+    "criteria": {
+      "has_leather": "2021-01-15 19:22:24 +0100"
+    },
+    "done": true
+  },
+  "DataVersion": 2584
+}

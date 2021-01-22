@@ -1,0 +1,46 @@
+[22Jan2021 18:21:36.696] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--gameDir, ., --launchTarget, fmlserver, --fml.forgeVersion, 35.1.4, --fml.mcpVersion, 20201102.104115, --fml.mcVersion, 1.16.4, --fml.forgeGroup, net.minecraftforge, nogui]
+[22Jan2021 18:21:36.700] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 8.0.6+85+master.325de55 starting: java version 1.8.0_261 by Oracle Corporation
+[22Jan2021 18:21:37.336] [main/INFO] [net.minecraftforge.fml.loading.FixSSL/CORE]: Added Lets Encrypt root certificates as additional trust
+[22Jan2021 18:21:37.385] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.2 Source=file:/C:/Users/gjerm/Downloads/CC%20Tweaked-20210122T164743Z-001/CC%20Tweaked/Server/libraries/org/spongepowered/mixin/0.8.2/mixin-0.8.2.jar Service=ModLauncher Env=SERVER
+[22Jan2021 18:21:38.433] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'fmlserver' with arguments [--gameDir, ., nogui]
+[22Jan2021 18:21:46.804] [modloading-worker-1/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 35.1.4, for MC 1.16.4 with MCP 20201102.104115
+[22Jan2021 18:21:46.883] [modloading-worker-1/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v35.1.4 Initialized
+[22Jan2021 18:21:49.045] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[22Jan2021 18:21:50.446] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: UP_TO_DATE Current: 35.1.4 Target: null
+[22Jan2021 18:21:51.937] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[22Jan2021 18:21:52.781] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[22Jan2021 18:21:52.821] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[22Jan2021 18:21:52.823] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[22Jan2021 18:21:52.855] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[22Jan2021 18:21:52.859] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[22Jan2021 18:21:52.865] [main/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]: Reloading ResourceManager: Default, forge-1.16.4-35.1.4-universal.jar, cc-tweaked-1.16.4-1.95.1.jar
+[22Jan2021 18:21:54.162] [Worker-Main-5/INFO] [net.minecraft.item.crafting.RecipeManager/]: Loaded 7 recipes
+[22Jan2021 18:21:55.123] [Worker-Main-5/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 991 advancements
+[22Jan2021 18:21:56.702] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.16.4
+[22Jan2021 18:21:56.705] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[22Jan2021 18:21:56.706] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[22Jan2021 18:21:56.709] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[22Jan2021 18:21:56.819] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[22Jan2021 18:21:56.869] [Server thread/INFO] [net.minecraft.network.NetworkSystem/]: Using default channel type
+[22Jan2021 18:21:57.525] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[22Jan2021 18:21:57.755] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[22Jan2021 18:21:59.090] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[22Jan2021 18:21:59.092] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[22Jan2021 18:21:59.093] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[22Jan2021 18:21:59.588] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[22Jan2021 18:22:02.523] [Worker-Main-7/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 83%
+[22Jan2021 18:22:02.526] [Worker-Main-6/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 83%
+[22Jan2021 18:22:02.595] [Worker-Main-4/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 83%
+[22Jan2021 18:22:02.600] [Worker-Main-6/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 83%
+[22Jan2021 18:22:02.598] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 83%
+[22Jan2021 18:22:02.601] [Worker-Main-7/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 83%
+[22Jan2021 18:22:02.817] [Worker-Main-7/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 99%
+[22Jan2021 18:22:03.263] [Worker-Main-7/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 99%
+[22Jan2021 18:22:03.725] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Time elapsed: 5963 ms
+[22Jan2021 18:22:03.733] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (6.260s)! For help, type "help"
+[22Jan2021 18:36:47.727] [User Authenticator #1/INFO] [net.minecraft.network.login.ServerLoginNetHandler/]: UUID of player gjermundhp02 is e18366f9-6664-4783-a8a7-8907cf44396a
+[22Jan2021 18:36:47.803] [Server thread/INFO] [net.minecraft.network.login.ServerLoginNetHandler/]: com.mojang.authlib.GameProfile@cddf19d[id=e18366f9-6664-4783-a8a7-8907cf44396a,name=gjermundhp02,properties={textures=[com.mojang.authlib.properties.Property@2c09fd66]},legacy=false] (/127.0.0.1:52817) lost connection: Disconnected
+[22Jan2021 18:41:20.185] [User Authenticator #2/INFO] [net.minecraft.network.login.ServerLoginNetHandler/]: UUID of player gjermundhp02 is e18366f9-6664-4783-a8a7-8907cf44396a
+[22Jan2021 18:41:21.728] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.advancements.PlayerAdvancements@456ad778
+[22Jan2021 18:41:21.757] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: gjermundhp02[/127.0.0.1:52938] logged in with entity id 147 at (90.65989653089858, 63.0, -14.852836103473496)
+[22Jan2021 18:41:21.878] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: gjermundhp02 joined the game
