@@ -44,3 +44,19 @@
 [22Jan2021 18:41:21.728] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.advancements.PlayerAdvancements@456ad778
 [22Jan2021 18:41:21.757] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: gjermundhp02[/127.0.0.1:52938] logged in with entity id 147 at (90.65989653089858, 63.0, -14.852836103473496)
 [22Jan2021 18:41:21.878] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: gjermundhp02 joined the game
+[22Jan2021 19:46:49.702] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: gjermundhp02 has made the advancement [Diamonds!]
+[22Jan2021 20:03:57.796] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: gjermundhp02 lost connection: Disconnected
+[22Jan2021 20:03:57.796] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: gjermundhp02 left the game
+[22Jan2021 20:04:13.096] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Stopping the server
+[22Jan2021 20:04:13.142] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[22Jan2021 20:04:13.144] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[22Jan2021 20:04:13.144] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[22Jan2021 20:04:13.145] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[22Jan2021 20:04:13.381] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[22Jan2021 20:04:13.381] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[22Jan2021 20:04:13.383] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[22Jan2021 20:04:13.384] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[22Jan2021 20:04:13.385] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[22Jan2021 20:04:13.402] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[22Jan2021 20:04:13.438] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[22Jan2021 20:04:13.438] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved

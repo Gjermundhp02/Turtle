@@ -79,15 +79,16 @@ function hardMove(direction)
     -- Atempt to move the turtle in a specified direction
     -- If not possible refuel and breaking obstruction will be atempted
     -- TODO: Add y level corigation
-    local couldMove, moveErr
+    local couldMove, moveErr, lowerDirection
+    lowerDirection = string.lower(direction)
     -- Determine direction and try to move in the direction
-    if string.lower(direction) == "up" then
+    if lowerDirection == "up" then
         couldMove, moveErr = turtle.up()
-    elseif string.lower(direction) == "down" then
+    elseif lowerDirection == "down" then
         couldMove, moveErr = turtle.down()
-    elseif string.lower(direction) == "forward" then
+    elseif lowerDirection == "forward" then
         couldMove, moveErr = turtle.forward()
-    elseif string.lower(direction) == "back" then
+    elseif lowerDirection == "back" then
         couldMove, moveErr = turtle.back()
     end
     -- Error handling if it was unable to move
@@ -99,25 +100,25 @@ function hardMove(direction)
         elseif moveErr == "Movement obstructed" then
             -- If the movement is obstructed try to mine the block in the direction
             -- If the block can't be broken print the error and return false
-            if direction == "up" then
+            if lowerDirection == "up" then
                 local broken, digErr = turtle.digUp()
                 if not broken then
                     print(digErr)
                     return false
                 end
-            elseif direction == "down" then
+            elseif lowerDirection == "down" then
                 local broken, digErr = turtle.digDown()
                 if not broken then
                     print(digErr)
                     return false
                 end
-            elseif direction == "forward" then
+            elseif lowerDirection == "forward" then
                 local broken, digErr = turtle.dig()
                 if not broken then
                     print(digErr)
                     return false
                 end
-            elseif direction == "back" then
+            elseif lowerDirection == "back" then
                 -- TODO: Add error correction
                 print("Movment obstructed backwords")
                 return false
@@ -187,7 +188,7 @@ function searchSurface(condition, blockTable)
     end
 end
 
-function stripMine()
+function stripMine(condition)
     local blockBellow, blockData = turtle.inspectDown()
     while blockBellow do
         if blockData.name == "minecraft:bedrock" then
@@ -215,8 +216,32 @@ function bedrockHandler(direction)
     end
 end
 
-function mineOre()
-    
+function mineOre(direction)
+    if not direction then
+        if not hardMove("forward") then
+            return false
+        elseif not scanWithAction(blockTable, true) then
+            return false
+        else
+            return hardMove("back")
+        end
+    elseif direction=="top" then
+        if not hardMove("up") then
+            return false
+        elseif not scanWithAction(blockTable, true) then
+            return false
+        else
+            return hardMove("down")
+        end
+    elseif direction=="bottom" then
+        if not hardMove("down") then
+            return false
+        elseif not scanWithAction(blockTable, true) then
+            return false
+        else
+            return hardMove("up")
+        end
+    end
 end
 
 function moveAlongGround(blockBellow)
@@ -255,7 +280,7 @@ function moveAlongGround(blockBellow)
 end
 
 function scanWithAction(table, topAndBottom)
-    -- Takes a table with format {{block, action}, ...}
+    -- Takes a table with format {[block]=action, ...}
     -- TODO: Fix variable redefinition in topAndBottom handler
     turtle.turnLeft()
     local blockInFront, blockData = turtle.inspect()
@@ -313,6 +338,13 @@ function woodLevelReached()
     end
 end
 
+function oreLevelReached(table)
+    --Create better condition some ores are not ores
+    for block, action in next, table do
+        locateItem(block)
+    end
+end
+
 yLevel = 0
 
 blockTable = {
@@ -322,15 +354,27 @@ blockTable = {
     ["minecraft:jungle_log"] = mineTree,
     ["minecraft:acacia_log"] = mineTree,
     ["minecraft:dark_oak_log"] = mineTree,
-    ["minecraft:diamond_ore"] = mineOre,
-    ["minecraft:bedrock"] = bedrockHandler
+    ["minecraft:bedrock"] = bedrockHandler,
+    ["minecraft:sugar_cane"] = mineSugarCane,
+    ["minecraft:stone"] = mineStone,
+    ["minecraft:redstone_ore"] = mineOre,
+    ["minecraft:iron_ore"] = mineOre,
+    ["minecraft:diamond_ore"] = mineOre
 }
 
--- searchSurface(woodLevelReached, blockTable)
-function startUp()
+oreTable = {}
+for block, action in next, blockTable do
+    if action == mineOre then
+        oreTable[block] = action
+    end
+end
+
+function copyCode()
     local diskPresent = disk.isPresent("down")
     if diskPresent then
         local filepath = disk.getMountPath("down").."/startup.lua"
         fs.copy(filepath, "startup.lua")
     end
 end
+
+--scanWithAction(blockTable, true)
